@@ -1,0 +1,79 @@
+enable_experimental_conpty_backend: true
+# Colors (Gruvbox dark)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '#1d2021'
+    background: '#282828'
+    # soft contrast: background = '#32302f'
+    foreground: '#ebdbb2'
+
+  # Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+  # Bright colors
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels. If both are zero this
+  # setting is ignored.
+  dimensions:
+    columns: 200
+    lines: 60
+  padding:
+    x: 0
+    y: 0
+  decorations: full
+  startup_mode: Windowed
+# Font configuration (changes require restart)
+font:
+  # The size to use.
+  size: 10
+  # The normal (roman) font face to use.
+  normal:
+    family: Consolas
+    # Style can be specified to pick a specific face.
+    style: Medium
+
+  # The bold font face
+  bold:
+    family: Consolas
+    # Style can be specified to pick a specific face.
+    # style: Bold
+
+  # The italic font face
+  italic:
+    family: Consolas
+    # Style can be specified to pick a specific face.
+    # style: Italic
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+use_thin_strokes: true
+draw_bold_text_with_bright_colors: false
+bell:
+  animation: EaseOutExpo
+  color: '0xffffff'
+  duration: 0
+background_opacity: 0.9
+live_config_reload: true
